@@ -442,10 +442,6 @@ body {
   position: relative;
   min-height: 100%;
 }
-#content #posts .post-type-normal .post-block {
-  height: 270px;
-  overflow: hidden;
-}
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
@@ -1827,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff09e9;
+  background: #f3f;
 }
 .links-of-blogroll {
   font-size: 13px;

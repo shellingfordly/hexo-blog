@@ -259,7 +259,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/28/搭建个人静态博客/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="shellingford ly">
@@ -278,7 +278,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/09/28/test/" itemprop="url">Node.js</a></h1>
+                <a class="post-title-link" href="/2019/09/28/搭建个人静态博客/" itemprop="url">搭建个人静态博客</a></h1>
         
 
         <div class="post-meta">
@@ -290,7 +290,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-28T05:08:16+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-28T06:34:28+08:00">
                 2019-09-28
               </time>
             
@@ -313,8 +313,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Node-js/" itemprop="url" rel="index">
-                    <span itemprop="name">Node.js</span>
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
                   </a>
                 </span>
 
@@ -352,8 +352,16 @@
       
         
           
-            <p>Node.js测试文件</p>
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本站基于<a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a><br>主题为<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">NexT</a><br>部署在<a href="https://github.com/shellingfordly/shellingfordly.github.io" target="_blank" rel="noopener">github源码</a><br>源于作者<a href="https://123sunxiaolin.github.io/" target="_blank" rel="noopener">Jack_lin</a>所写文章帮助下完成<br>网站搭建细节请阅读<a href="https://123sunxiaolin.github.io/2016/08/27/%E5%BE%92%E6%89%8B%E6%95%99%E4%BD%A0%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">原文</a></p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="node安装"><a href="#node安装" class="headerlink" title="node安装"></a>node安装</h3><p>下载<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js官网</a></p>
+<h3 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 
+<h2 id="开始搭建"><a href="#开始搭建" class="headerlink" title="开始搭建"></a>开始搭建</h2><h3 id="执行命令"><a href="#执行命令" class="headerlink" title="执行命令"></a>执行命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init 项目名称</span><br><span class="line">cd 项目名称</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>访问<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
+<h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next   themes/next</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo  clean  #清楚网页缓存</span><br><span class="line">hexo  g #生成静态网页</span><br><span class="line">hexo d #开始部署</span><br></pre></td></tr></table></figure>
           
         
       
@@ -453,15 +461,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">标签</span>
-                
-              </div>
             
 
           </nav>
