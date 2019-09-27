@@ -442,7 +442,7 @@ body {
   position: relative;
   min-height: 100%;
 }
-#content #posts .post-type-normal {
+#content #posts .post-type-normal .post-block {
   height: 270px;
   overflow: hidden;
 }
@@ -1827,7 +1827,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #26d996;
+  background: #ff09e9;
 }
 .links-of-blogroll {
   font-size: 13px;
