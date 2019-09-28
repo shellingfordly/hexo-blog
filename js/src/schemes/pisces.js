@@ -1,10 +1,11 @@
 $(document).ready(function () {
 
-  let url = "https://shellingfordly.github.io/";
+  let url = "https://shellingfordly.github.io";
   let nowUrl = window.location.href;
-  
+  console.log(1111111111)
   let articleList = $(".post-block");
   if(  nowUrl == url ){
+    console.log(2222222)
     for (let i = 0;i<articleList.length;i++) {
       let divstyle = articleList[i];
       $(divstyle).css({
