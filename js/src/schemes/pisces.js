@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
-  let url = "http://localhost:4000/";
+  let url = "https://shellingfordly.github.io/";
   let nowUrl = window.location.href;
+  
   let articleList = $(".post-block");
   if(  nowUrl == url ){
     for (let i = 0;i<articleList.length;i++) {
