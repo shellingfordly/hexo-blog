@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+  let url = "http://localhost:4000/";
+  let nowUrl = window.location.href;
+  let articleList = $(".post-block");
+  if(  nowUrl == url ){
+    for (let i = 0;i<articleList.length;i++) {
+      let divstyle = articleList[i];
+      $(divstyle).css({
+        "height": "18rem",
+        "overflow": "hidden",
+        "margin-bottom": "4rem",
+      })
+    }
+  }
+
+
   var sidebarInner = $('.sidebar-inner');
 
   initAffix();
