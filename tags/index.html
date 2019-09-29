@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="shelllingfordly">
 <meta property="og:description" content="JavaScript  &amp;nbsp;&amp;nbsp;&amp;nbsp;      Vue  &amp;nbsp;&amp;nbsp;&amp;nbsp;      Node.js  &amp;nbsp;&amp;nbsp;&amp;nbsp;      hexo  &amp;nbsp;&amp;nbsp;&amp;nbsp;      axios  &amp;nbsp;&amp;nbsp;&amp;nbsp;      git  &amp;nbsp;&amp;nbsp;&amp;nbsp;      bootst">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-29T05:56:01.641Z">
+<meta property="og:updated_time" content="2019-09-29T11:34:20.757Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="标签">
 <meta name="twitter:description" content="JavaScript  &amp;nbsp;&amp;nbsp;&amp;nbsp;      Vue  &amp;nbsp;&amp;nbsp;&amp;nbsp;      Node.js  &amp;nbsp;&amp;nbsp;&amp;nbsp;      hexo  &amp;nbsp;&amp;nbsp;&amp;nbsp;      axios  &amp;nbsp;&amp;nbsp;&amp;nbsp;      git  &amp;nbsp;&amp;nbsp;&amp;nbsp;      bootst">
@@ -220,6 +220,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-评论区">
+          <a href="/comment" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-comment"></i> <br>
+            
+            评论区
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-关于我">
           <a href="/about" rel="section">
             
@@ -313,6 +323,13 @@
 </a>
 
 
+<script>
+// 移除评论框
+setTimeout(function(){
+    let comments = document.getElementById("comments");
+            comments.parentNode.removeChild(comments);
+}, 2000);
+</script>
         
       </div>
       
