@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="vue,">
+  <meta name="keywords" content="vue,axios,git,bootstrap,element-ui,sweiper,better-scroll,stylus,webpack,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在vue开发中使用到的一些插件/框架/模板">
-<meta name="keywords" content="vue">
+<meta name="description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 一些框架/库/模板/插件的指令">
+<meta name="keywords" content="vue,axios,git,bootstrap,element-ui,sweiper,better-scroll,stylus,webpack">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vue辅助工具">
-<meta property="og:url" content="http://yoursite.com/2019/09/29/vue插件/index.html">
+<meta property="og:title" content="指令集">
+<meta property="og:url" content="http://yoursite.com/2019/09/29/指令集/index.html">
 <meta property="og:site_name" content="shelllingfordly">
-<meta property="og:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在vue开发中使用到的一些插件/框架/模板">
+<meta property="og:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 一些框架/库/模板/插件的指令">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-28T16:56:24.602Z">
+<meta property="og:updated_time" content="2019-09-29T05:43:30.281Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vue辅助工具">
-<meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在vue开发中使用到的一些插件/框架/模板">
+<meta name="twitter:title" content="指令集">
+<meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 一些框架/库/模板/插件的指令">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/09/29/vue插件/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/29/指令集/">
 
 
 
 
 
-  <title>Vue辅助工具 | shelllingfordly</title>
+  <title>指令集 | shelllingfordly</title>
   
 
 
@@ -263,7 +263,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/29/vue插件/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/29/指令集/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="shellingford ly">
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Vue辅助工具</h1>
+          <h1 class="post-title" itemprop="name headline">指令集</h1>
         
 
         <div class="post-meta">
@@ -326,8 +326,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具/vue/" itemprop="url" rel="index">
-                    <span itemprop="name">vue</span>
+                  <a href="/categories/工具/命令/" itemprop="url" rel="index">
+                    <span itemprop="name">命令</span>
                   </a>
                 </span>
 
@@ -365,16 +365,20 @@
       
         <span>
 &nbsp;&nbsp;&nbsp;&nbsp;
-在vue开发中使用到的一些插件/框架/模板
+一些框架/库/模板/插件的指令
 </span>
 
 <a id="more"></a>
 
-<h1 id="vue项目用到的插件和模板"><a href="#vue项目用到的插件和模板" class="headerlink" title="vue项目用到的插件和模板"></a>vue项目用到的插件和模板</h1><h2 id="axios-获取数据的http库"><a href="#axios-获取数据的http库" class="headerlink" title="axios 获取数据的http库"></a>axios 获取数据的http库</h2><blockquote>
+
+<h2 id="axios"><a href="#axios" class="headerlink" title="axios"></a>axios</h2><blockquote>
 <p>Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中</p>
 </blockquote>
 <ul>
-<li>安装</li>
+<li><p>作用: 获取数据的http库</p>
+</li>
+<li><p>安装</p>
+</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install axios</span><br></pre></td></tr></table></figure>
 
@@ -496,6 +500,124 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">// 定义公共css样式</span><br><span class="line">// mixins.styl文件中定义css样式函数</span><br><span class="line">loaction()</span><br><span class="line">   position:absolute</span><br><span class="line">   right:.2rem</span><br><span class="line">   bottom:0</span><br><span class="line">   top:0</span><br><span class="line">   width:.3rem</span><br><span class="line">   height:.3rem</span><br><span class="line">   margin:auto</span><br><span class="line">   font-size:.3rem</span><br><span class="line">   color:#999</span><br><span class="line">// 在CSS样式中引入别的scc样式</span><br><span class="line">@import &apos;~style/mixins.styl&apos;;</span><br><span class="line">// 在css中执行函数</span><br><span class="line">loaction()</span><br></pre></td></tr></table></figure>
 
+<hr>
+<h2 id="webpack"><a href="#webpack" class="headerlink" title="webpack"></a>webpack</h2><h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><h4 id="cnpm-i-–save-xxx"><a href="#cnpm-i-–save-xxx" class="headerlink" title="cnpm i –save xxx"></a>cnpm i –save xxx</h4><ul>
+<li>–save：安装的xxx包/模块上线的时候需要使用，简写-S</li>
+<li>–save-dev：安装的xxx包仅开发时候使用，上线不需要，简写-D</li>
+</ul>
+<h4 id="webpack-1"><a href="#webpack-1" class="headerlink" title="webpack"></a>webpack</h4><ul>
+<li>webpack -d： 开发环境，不压缩代码</li>
+<li>webpack -p： 默认，上线环境，压缩为一行代码</li>
+<li>–watch： 监听文件实时改变，在webpack -d/webpack -p 后面加上–watch就能实时监听，不需要改变一次又需要webpack编译一次</li>
+</ul>
+<hr>
+<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><h3 id="git指令"><a href="#git指令" class="headerlink" title="git指令"></a>git指令</h3><ul>
+<li>在项目中安装git</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>提交index.html文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add index.html</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>提交所有(“.”)文件夹内的所有文件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>配置</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;you@example.com&quot;</span><br><span class="line">git config --global user.name &quot;yourname&quot;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>提交放在分支中</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;新增了一个XXX文件&quot;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>推送到远程仓库之前，先关联本地和远程仓库，xxx建议使用ssh路径，http路径需要登录</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin xxx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>推送到远程仓库—&gt; yes，需要权限—&gt;获取权限</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>一路回车获取密钥</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;you@example.com&quot;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>打开id_rsa.pub<ul>
+<li>回到github—&gt;setting—&gt;SSH—&gt;new SSH key</li>
+<li>将id_rsa.pub里的密钥复制到key中</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>git pull origin master</p>
+<ul>
+<li>当github中的仓库中被操作过时，先$ git pull将仓库中的所有分子拉取下来</li>
+<li>$ git pull origin master将master分子pull下来</li>
+<li>此操作的目的是为了将被修改过的远程仓库pull拉取到本地仓库来，让本地仓库完全等于远程仓库</li>
+<li>pull拉取时出现一个奇怪的界面时操作i–esc–:wq退出</li>
+</ul>
+</li>
+<li><p>pull结束后再push到github上去</p>
+</li>
+</ul>
+<ul>
+<li>将整各仓库的项目克隆下来</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone ssh路径</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>master是主分支<br>  当一个项目在开发时，放在分支中</li>
+</ul>
+<ul>
+<li>创建xxx分支</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch xxx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>查看分支</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>切换到xxx分支</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout xxx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>将xxx分支整合到master分支上</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge xxx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>删除xxx分支</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d xxx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>可以看到提交的commit信息</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>回退到commit的某一个版本</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard &quot;commitID&quot;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>上传到github仓库</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin https://github.com/xxx/xxx.github.io.git</span><br><span class="line">git add -A</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -514,6 +636,22 @@
         <div class="post-tags">
           
             <a href="/tags/vue/" rel="tag"># vue</a>
+          
+            <a href="/tags/axios/" rel="tag"># axios</a>
+          
+            <a href="/tags/git/" rel="tag"># git</a>
+          
+            <a href="/tags/bootstrap/" rel="tag"># bootstrap</a>
+          
+            <a href="/tags/element-ui/" rel="tag"># element-ui</a>
+          
+            <a href="/tags/sweiper/" rel="tag"># sweiper</a>
+          
+            <a href="/tags/better-scroll/" rel="tag"># better-scroll</a>
+          
+            <a href="/tags/stylus/" rel="tag"># stylus</a>
+          
+            <a href="/tags/webpack/" rel="tag"># webpack</a>
           
         </div>
       
@@ -639,7 +777,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -682,7 +820,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#vue项目用到的插件和模板"><span class="nav-number">1.</span> <span class="nav-text">vue项目用到的插件和模板</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#axios-获取数据的http库"><span class="nav-number">1.1.</span> <span class="nav-text">axios 获取数据的http库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bootstrap"><span class="nav-number">1.2.</span> <span class="nav-text">bootstrap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#element-ui"><span class="nav-number">1.3.</span> <span class="nav-text">element-ui</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sweiper"><span class="nav-number">1.4.</span> <span class="nav-text">sweiper</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#better-scroll"><span class="nav-number">1.5.</span> <span class="nav-text">better-scroll</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#stylus"><span class="nav-number">1.6.</span> <span class="nav-text">stylus</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#axios"><span class="nav-number">1.</span> <span class="nav-text">axios</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bootstrap"><span class="nav-number">2.</span> <span class="nav-text">bootstrap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#element-ui"><span class="nav-number">3.</span> <span class="nav-text">element-ui</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sweiper"><span class="nav-number">4.</span> <span class="nav-text">sweiper</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#better-scroll"><span class="nav-number">5.</span> <span class="nav-text">better-scroll</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#stylus"><span class="nav-number">6.</span> <span class="nav-text">stylus</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webpack"><span class="nav-number">7.</span> <span class="nav-text">webpack</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命令"><span class="nav-number">7.1.</span> <span class="nav-text">命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#cnpm-i-–save-xxx"><span class="nav-number">7.1.1.</span> <span class="nav-text">cnpm i –save xxx</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#webpack-1"><span class="nav-number">7.1.2.</span> <span class="nav-text">webpack</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git"><span class="nav-number">8.</span> <span class="nav-text">git</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#git指令"><span class="nav-number">8.1.</span> <span class="nav-text">git指令</span></a></li></ol></li></ol></div>
             
 
           </div>
